@@ -1,0 +1,17 @@
+.header-container {
+    border-bottom: 1px solid black;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-list-item {
+    list-style-type: none;
+}
