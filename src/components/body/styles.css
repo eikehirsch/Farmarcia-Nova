@@ -4,10 +4,12 @@
     justify-content: center;
     text-align: center;
     padding: 30px 60px;
+    margin: 40px 0;
 }
 
 .body-title {
     padding-bottom: 40px;
+    font-weight: 600;
 }
 
 .body-paragraph {
@@ -30,16 +32,10 @@
 
 .body-subcontainer-list {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-self: center;;
     width: 50%;
 }
 
-.body-subcontainer-item {
-    
-}
-
-.body-subcontainer-item-bold {
-    font-weight: bold;
+.body-subcontainer-list > li {
+    border: 1px solid #e23e57;
 }

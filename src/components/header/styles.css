@@ -14,4 +14,15 @@
 
 .header-list-item {
     list-style-type: none;
+    cursor: pointer;
+    color: #ce1f3a;
+    font-weight: 600;
+    border: 1px solid #ce1f3a;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.header-list-item:hover {
+    text-decoration: underline;
 }

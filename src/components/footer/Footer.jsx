@@ -12,7 +12,6 @@ const Footer = () => {
             </span>
             <span>
                 Segunda a Sexta: 08:00 - 18:00
-                Domingo: Fechado
             </span>
             <span>
                 Sábado: 08:00 - 13:00
@@ -26,16 +25,16 @@ const Footer = () => {
                 Redes Sociais:
             </span>
             <span>
-                Facebook: [Link do Facebook]
+                Facebook: www.facebook.com/farmarcia
             </span>
             <span>
-                Instagram: [Link do Instagram]
+                Instagram: www.instagram.com/farmarcia
             </span>
             <span>
-                Twitter: [Link do Twitter]
+                Twitter: www.twitter.com/farmarcia
             </span>
             <span>
-              LinkedIn: [Link do LinkedIn]
+              LinkedIn: www.linkedin.com/farmarcia
             </span>
         </div>
       </div>
@@ -44,10 +43,10 @@ const Footer = () => {
                 Contato:
             </span>
             <span>
-                WhatsApp: [Número de WhatsApp]
+                WhatsApp: 45 9 9834-5671
             </span>
             <span>
-               E-mail: [Email de Contato]
+               E-mail: farmarcia@atendimento.com.br
             </span>
         </div>
     </footer>

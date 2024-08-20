@@ -1,4 +1,5 @@
 import './styles.css'
+import Card from "../card/Card"
 
 const Body = () => {
   return (
@@ -9,14 +10,7 @@ const Body = () => {
         <img className='body-container-img' src="./images/farmarcia-placa.png" alt="" />
 
         <ul className='body-subcontainer-list'>
-          <li>
-          <span className='body-subcontainer-item-bold'>Atendimento Aconchegante e Personalizado</span>: Em nossa farmácia, cada cliente é especial. Estamos aqui para ouvir, orientar e cuidar de você com atenção e carinho.
-          </li>
-          <li><span className='body-subcontainer-item-bold'>Preços Justos e Competitivos:</span> Acreditamos que saúde de qualidade deve ser acessível. Por isso, oferecemos preços que cabem no seu bolso sem comprometer a qualidade.
-          </li>
-          <li>
-          <span className='body-subcontainer-item-bold'>Facilidade e Confiabilidade:</span> Com um processo de compra simplificado e entrega rápida, garantimos que você receba o que precisa sem complicações.
-          </li>
+          <Card />
         </ul>
       </div>
     </div>

@@ -1,0 +1,12 @@
+.card-item {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #e96a7e;
+}
+
+.card-item-bold {
+  font-weight: bold;
+  color: #ce1f3a;
+}
