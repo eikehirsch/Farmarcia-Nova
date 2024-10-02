@@ -1,15 +1,8 @@
-import './App.css'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
-import Body from './components/body/Body'
-
 function App() {
 
   return (
     <div className='app-container'>
-      <Header />
-      <Body />
-      <Footer />
+   
     </div>
   )
 }

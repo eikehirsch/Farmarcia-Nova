@@ -1,0 +1,83 @@
+.atendimento-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:  #ef97a4;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.atendimento-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.buttons-container {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px 40px 0px;
+}
+
+.gerar-senha-normal, .gerar-senha-prioritaria {
+    background-color: white;
+    padding: 4px;
+    cursor: pointer;
+    color: black;
+}
+
+.gerar-senha-normal:hover, .gerar-senha-prioritaria:hover {
+    background-color: salmon;
+    color: white;
+}
+
+.lista-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.lista-container-titulo {
+    color: black;
+    font-size: 20px;
+}
+
+.lista-paragrafo-container {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-paragrafo-container-prioritario {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ef97a4;
+}
+
+.lista-paragrafo {
+    color: black;
+}
+
+.buttons-atender-senhas-container {
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px 40px 0px;
+}

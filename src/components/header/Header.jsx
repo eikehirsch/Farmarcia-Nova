@@ -1,5 +1,6 @@
 import './styles.css'
 import Logo from '../logo/Logo'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -10,6 +11,9 @@ const Header = () => {
         <li className='header-list-item'>Produtos</li>
         <li className='header-list-item'>Lojas</li>
         <li className='header-list-item'>Contato</li>
+        <Link to="/atendimento">
+          <li className='header-list-item'>Atendimento</li>
+        </Link>
       </ul>
     </header>
   )
